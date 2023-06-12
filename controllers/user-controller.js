@@ -1,4 +1,4 @@
-import { Token } from '../services/token.serivce';
+import { Token } from '../services/token.service';
 import axios from 'axios';
 const Redis = require("ioredis");
 // import { RedisService } from '../services/redis.service';
