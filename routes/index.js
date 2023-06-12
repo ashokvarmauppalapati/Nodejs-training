@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const token_service = require("../services/token.serivce");
+const token_service = require("../services/token.service");
 const tokenService = new token_service.Token();
 
 const user_controller = require("../controllers/user-controller");
