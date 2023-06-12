@@ -2,7 +2,6 @@ const express = require('express');
 const njwt = require('njwt');
 var CryptoJS = require("crypto-js");
 const routes = require("./routes");
-const moduleRoutes = require("./routes/module");
 // var os = require('os');
 // var fs = require('fs');
 const app = express();
